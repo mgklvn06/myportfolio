@@ -1,4 +1,5 @@
 :root {
+  --header-bg-rgb: 18, 18, 18;
   --bg-primary: #121212;
   --bg-secondary: #1e1e1e;
   --bg-tertiary: #2d2d2d;
@@ -14,6 +15,7 @@
 }
 
 body.light-mode {
+  --header-bg-rgb: 255, 255, 255;
   --bg-primary: #ffffff;
   --bg-secondary: #f0f0f0;
   --bg-tertiary: #e0e0e0;
@@ -133,7 +135,7 @@ header {
   top: 0;
   width: 100%;
   z-index: 1000;
-  background: rgba(18, 18, 18, 0.95);
+  background: rgba(var(--header-bg-rgb), 0.95);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--border-color);
 }
