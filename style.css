@@ -130,6 +130,23 @@ body {
   background: var(--bg-tertiary);
 }
 
+.theme-toggle-btn {
+  background-color: var(--bg-secondary); 
+  border: 1px solid var(--border-color);
+  border-radius: 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: var(--text-primary);
+  padding: 0.3rem 0.5rem;
+  transition: var(--transition);
+}
+
+.theme-toggle-btn:hover {
+  background-color: var(--bg-tertiary);
+  border-color: var(--accent-primary);  
+  color: var(--accent-primary);
+}
+
 header {
   position: fixed;
   top: 0;
