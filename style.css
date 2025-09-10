@@ -13,6 +13,20 @@
   --transition: all 0.3s ease;
 }
 
+body.light-mode {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f0f0f0;
+  --bg-tertiary: #e0e0e0;
+  --text-primary: #111111;
+  --text-secondary: #555555;
+  --text-tertiary: #777777;
+  --accent-primary: #007bff;
+  --accent-primary-variant: #0056b3;
+  --accent-secondary: #03dac6;
+  --border-color: #cccccc;
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
 * {
   margin: 0;
   padding: 0;
