@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of a Software Developer">
+    <title>Software Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="#home">DevPortfolio</a>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Hi, I'm <span class="highlight">Kelvin Mwangi</span></h1>
+                    <p class="hero-subtitle">Software Developer & Problem Solver</p>
+                    <p class="hero-description">
+                        I build exceptional digital experiences that are fast, accessible, visually appealing, and responsive.
+                        Even if you don't know what those words mean, I can help you achieve your online goals.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-placeholder">
+                        <img src="images/software-development-costs-1128x635.jpg" alt="Profile Photo" class="profile-img">
+                        <span class="Card-spin"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            Hello! I'm Kelvin, a passionate software developer with over 1 years of experience creating 
+                            digital solutions for businesses and individuals. I specialize in full-stack development 
+                            with a focus on creating clean, efficient, and user-friendly applications.
+                        </p>
+                        <p>
+                            My journey in tech started when I built my first website at 18. Since then, I'm working
+                            with startups and established companies to bring their ideas to life through code.
+                        </p>
+                        <p>
+                            When I'm not coding, you can find me hiking, reading tech blogs, or contributing to 
+                            open-source projects. I believe in continuous learning and staying updated with the 
+                            latest industry trends.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat">
+                                <h3>10+</h3>
+                                <p>Projects Completed</p>
+                            </div>
+                            <div class="stat">
+                                <h3>1+</h3>
+                                <p>Years Experience</p>
+                            </div>
+                            <div class="stat">
+                                <h3>2+</h3>
+                                <p>Happy Clients</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <div class="tech-stack">
+                            <h3>Technologies I Work With</h3>
+                            <div class="tech-icons">
+                                <span class="tech-icon">HTML5</span>
+                                <span class="tech-icon">CSS3</span>
+                                <span class="tech-icon">JavaScript</span>
+                                <span class="tech-icon">React</span>
+                                <span class="tech-icon">Node.js</span>
+                                <span class="tech-icon">Python</span>
+                                <span class="tech-icon">MongoDB</span>
+                                <span class="tech-icon">Php</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">My Projects</h2>
+                <div class="projects-filter">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Apps</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile</button>
+                    <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="assets/images/project1.jpg" alt="Project 1">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Event app</h3>
+                            <p class="project-description">
+                                A full-featured online events viewing and tickets purchase platform with payment integration, systematic management, 
+                                and user authentication.
+                            </p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small">Live Demo</a>
+                                <a href="#" class="btn btn-small btn-outline">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="mobile">
+                        <div class="project-image">
+                            <img src="assets/images/project2.jpg" alt="Project 2">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Fitness Tracker App</h3>
+                            <p class="project-description">
+                                Mobile application for tracking workouts, nutrition, and health metrics with personalized 
+                                recommendations.
+                            </p>
+                            <div class="project-tech">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small">Live Demo</a>
+                                <a href="#" class="btn btn-small btn-outline">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="fullstack">
+                        <div class="project-image">
+                            <img src="assets/images/project3.jpg" alt="Project 3">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Task Management System</h3>
+                            <p class="project-description">
+                                Collaborative task management platform with real-time updates, team collaboration 
+                                features, and reporting tools.
+                            </p>
+                            <div class="project-tech">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small">Live Demo</a>
+                                <a href="#" class="btn btn-small btn-outline">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="assets/images/project4.jpg" alt="Project 4">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Weather Dashboard</h3>
+                            <p class="project-description">
+                                Interactive weather dashboard with forecasting, maps, and severe weather alerts 
+                                for multiple locations.
+                            </p>
+                            <div class="project-tech">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small">Live Demo</a>
+                                <a href="#" class="btn btn-small btn-outline">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="resume" class="section">
+            <div class="container">
+                <h2 class="section-title">My Resume</h2>
+                <div class="resume-content">
+                    <div class="resume-download">
+                        <p>Interested in my professional experience and qualifications?</p>
+                        <a href="assets/documents/resume.pdf" class="btn btn-primary" download>
+                            Download Resume
+                        </a>
+                    </div>
+
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">??-??</div>
+                            <div class="timeline-content">
+                                <h3>Senior Software Developer</h3>
+                                <h4>Lorem, ipsum dolor.</h4>
+                                <p>
+                                    Lead development of customer-facing web applications using React and Node.js. 
+                                    Mentored junior developers and implemented CI/CD pipelines that reduced deployment 
+                                    time by 40%.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-date">??-??</div>
+                            <div class="timeline-content">
+                                <h3>Full Stack Developer</h3>
+                                <h4>Lorem, ipsum dolor.</h4>
+                                <p>
+                                    Developed and maintained multiple client projects using Vue.js, Express, and 
+                                    PostgreSQL. Collaborated with design team to implement responsive UI components.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-date">??-??</div>
+                            <div class="timeline-content">
+                                <h3>Frontend Developer</h3>
+                                <h4>Lorem, ipsum dolor.</h4>
+                                <p>
+                                    Built responsive websites and web applications for various clients using HTML, 
+                                    CSS, and JavaScript. Optimized site performance resulting in 30% faster load times.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-date">2026-??</div>
+                            <div class="timeline-content">
+                                <h3>Junior Web Developer</h3>
+                                <h4>Lorem, ipsum dolor.</h4>
+                                <p>
+                                    Assisted in development and maintenance of client websites. Learned modern 
+                                    development practices and version control using Git.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="education">
+                        <h3>Education</h3>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2024-present</div>
+                            <div class="timeline-content">
+                                <h3>Diploma in software development</h3>
+                                <h4>Institute of Software Technologies</h4>
+                                <p>
+                                    Graduated with honors. Specialized in software engineering and web development. 
+                                    Completed capstone project on real-time collaborative applications.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <p class="contact-description">
+                            Have a project in mind or want to discuss potential opportunities? 
+                            Feel free to reach out using the form or through my contact information below.
+                        </p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h3>Email</h3>
+                                    <p>gkmwangi420@gmail.com.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <h3>Phone</h3>
+                                    <p>0705569540</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <h3>Location</h3>
+                                    <p>Nairobi, Kenya</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-links large">
+                            <a href="#" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form id="contactForm" action="https://formspree.io/f/xvgbdnkl" method="POST">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                        <div id="formMessage" class="form-message"></div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Kelvin Mwangi. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="scroll-top">
+        <i class="fas fa-arrow-up">Go up</i>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/your-code-here.js" crossorigin="anonymous"></script>
+</body>
+</html>
