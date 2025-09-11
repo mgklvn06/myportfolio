@@ -131,11 +131,13 @@ const fadeElements = document.querySelectorAll('.fade-in');
 
 const fadeInOnScroll = () => {
   fadeElements.forEach(element => {
-    const elementTop = element.getBoundingClientRect().top;
+    const rect = element.getBoundingClientRect();
     const elementVisible = 150;
-    
-    if (elementTop < window.innerHeight - elementVisible) {
+
+    if (rect.top < window.innerHeight - elementVisible && rect.bottom > 0) {
       element.classList.add('active');
+    } else {
+      element.classList.remove('active');
     }
   });
 };
